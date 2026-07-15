@@ -1,0 +1,26 @@
+{
+  "info": {
+    "_postman_id": "eb41c974-161a-4e5f-8dd3-de88e8074e62",
+    "name": "Collection API Sent FutureSkill",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56644645"
+  },
+  "item": [
+    {
+      "name": "Status code 200 ok",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Status code 404 not found",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
