@@ -8,7 +8,7 @@ Suite Teardown   Close Browser
 
 *** Test Cases ***
 สมัครสมาชิกของ Future Skill
-    [Documentation]    ทดสอบการสมัครสมาชิก Future Skill ตาม Step 1 - 5
+    [Documentation]    ทดสอบการสมัครสมาชิกเว็บ Future Skill Step 1 - 5
     [Tags]             Registration
     Step1: เข้า Web: Future Skill
     Step2: กดปุ่ม "สมัครสมาชิก" บนหน้าแรก
