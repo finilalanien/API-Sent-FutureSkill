@@ -14,7 +14,7 @@ Step2: กดปุ่ม "สมัครสมาชิก" บนหน้า
 Step3: กรอกข้อมูลสมัครสมาชิก
     Wait Until Element Is Visible    xpath=//input[@placeholder='อีเมล']
     
-    # เรียกใช้ตัวแปรให้ตรงกับในไฟล์ testdata.yaml
+    # เรียกใช้ตัวแปรจากไฟล์ testdata.yaml
     Input Text       xpath=//input[@placeholder='อีเมล']            ${Email}
     Input Text       xpath=//input[@placeholder='ชื่อ']             ${FIRSTNAME}
     Input Text       xpath=//input[@placeholder='นามสกุล']          ${LASTNAME}
